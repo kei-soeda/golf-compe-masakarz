@@ -132,13 +132,22 @@
   .hero h1{
     font-size:clamp(3.1rem,9vw,6.4rem);
     font-weight:500;line-height:1.02;letter-spacing:.01em;
-    margin:.35em 0 .1em;
+    margin:.18em 0 .1em;
     color:var(--ivory);
   }
+  .hero h1 .naranu{
+    display:block;
+    font-size:clamp(1.55rem,4.6vw,2.7rem);
+    font-weight:400;letter-spacing:.1em;line-height:1.35;
+    color:var(--gold-soft);margin-bottom:.12em;
+  }
   .hero .jp-tag{
-    font-family:"Noto Serif JP",serif;font-weight:400;
-    font-size:clamp(1.35rem,3.4vw,1.9rem);letter-spacing:.22em;
-    color:var(--gold-soft);margin-bottom:1.8rem;
+    font-family:"Noto Serif JP",serif;font-weight:300;
+    font-size:clamp(.68rem,1.7vw,.86rem);letter-spacing:.22em;
+    color:var(--gold-soft);margin-bottom:1.15rem;
+  }
+  .hero .jp-tag .zenkome{
+    font-size:.86em;letter-spacing:.08em;opacity:.82;
   }
   .hero .lead{
     font-weight:300;font-size:1rem;letter-spacing:.04em;color:rgba(247,242,230,.8);
@@ -358,7 +367,8 @@
     .wrap{padding:0 18px}
     .hero{padding:100px 0 72px}
     .hero-frame{padding:36px 16px;width:100%}
-    .hero .jp-tag{letter-spacing:.1em;font-size:clamp(1.15rem,4.2vw,1.55rem)}
+    .hero .jp-tag{letter-spacing:.08em;font-size:clamp(.62rem,2.6vw,.78rem)}
+    .hero h1 .naranu{font-size:clamp(1.25rem,5.4vw,1.85rem);letter-spacing:.06em}
     .hero .invit.kicker,.kicker{letter-spacing:.18em}
     .hero h1{font-size:clamp(2.6rem,14vw,4.2rem)}
     .facts{width:100%;max-width:100%}
@@ -437,9 +447,9 @@
 <section class="hero" id="top">
   <div class="hero-frame">
     <div class="rule"></div>
-    <div class="invit kicker">Masters ならぬ⁉　1DAY Tournament</div>
-    <p class="jp-tag">第8667回　全米（ぜんこめ）オープン</p>
-    <h1>マサカーズ</h1>
+    <div class="invit kicker">1DAY Tournament</div>
+    <p class="jp-tag">第8667回　<span class="zenkome">全米（ぜんこめ）</span>オープン</p>
+    <h1><span class="naranu">マスターズならぬ、</span>マサカーズ</h1>
     <p class="lead">皆様と交流を深める目的として、ゆる〜く開催するゴルフコンペです。真夏を前に、白熱した戦いでひと早く猛暑な一日に。ぜひご都合をつけてご参加ください。</p>
     <div class="facts">
       <div class="fact"><div class="l">Date</div><div class="v">2026.07.25（土）</div></div>
@@ -462,7 +472,7 @@
       <span class="kicker">About the Cup</span>
       <h2>競うためではなく、<br><em>新しい輪を広げるための一日に。</em></h2>
     </div>
-    <p class="about-lead rv">バイタルネット東京中央支店主催の第8667回ゴルフコンペ。<em>職種や立場を超えて交流を深める</em>一日です。スコアの巧拙は問いません。ぜひ楽しくプレーを楽しみましょう。</p>
+    <p class="about-lead rv">第8667回ゴルフコンペ。<em>職種や立場を超えて交流を深める</em>一日です。スコアの巧拙は問いません。ぜひ楽しくプレーを楽しみましょう。</p>
     <div class="about-grid rv">
       <div class="about-card">
         <div class="no">i.</div>
@@ -623,7 +633,7 @@
           <div class="r"><span class="k">ドラコン</span><span class="v">前後半各1ホール　※フェアウェイを外したら罰金100円</span></div>
           <div class="r"><span class="k">優勝賞品</span><span class="v">インディカ米（チャタゴン地方 コシヒカリ）5kg</span></div>
           <div class="r"><span class="k">競技</span><span class="v">新ペリア上限なし・オール6インチ</span></div>
-          <div class="r"><span class="k">主催</span><span class="v">バイタルネット東京中央支店　幹事・齋藤</span></div>
+          <div class="r"><span class="k">幹事</span><span class="v">齋藤</span></div>
         </div>
       </div>
     </div>
@@ -711,7 +721,7 @@
       </div>
       <p class="entry-note">
         ご不明な点は幹事までお問い合わせください。<br>
-        <b>主催：バイタルネット東京中央支店　幹事：齋藤</b><br>
+        <b>幹事：齋藤</b><br>
         参加費は当日集金（プレー代 10,970円 ＋ 参加費 1,000円 ＝ 合計 11,970円）です。
       </p>
     </div>
@@ -725,7 +735,7 @@
       <div class="foot-brand">
         <img class="crest" src="images/crest.png?v=20260811" width="52" height="52" alt="マサカーズ エンブレム">
         <div class="bt">マサカーズ<small>Masacars Open</small></div>
-        <p>マスターズならぬ⁉　交流を深めるためのゆる〜い1DAYトーナメント。素敵な輪が広がりますように。</p>
+        <p>マスターズならぬ、マサカーズ。交流を深めるためのゆる〜い1DAYトーナメント。素敵な輪が広がりますように。</p>
       </div>
       <div class="foot-col">
         <h4>Menu</h4>
@@ -743,7 +753,7 @@
       <div class="foot-col">
         <h4>Information</h4>
         <ul>
-          <li><span class="k">主催</span><br><span>バイタルネット東京中央支店　幹事・齋藤</span></li>
+          <li><span class="k">幹事</span><br><span>齋藤</span></li>
           <li><span class="k">開催日</span><br><span>2026年7月25日（土）</span></li>
           <li><span class="k">会場</span><br><span>ピートダイゴルフクラブ　VIPコース</span></li>
           <li><span class="k">会場TEL</span><br><span>0288-26-4888</span></li>
