@@ -308,6 +308,15 @@
   .entry-note{margin-top:34px;font-weight:300;font-size:.9rem;line-height:2.1;color:rgba(247,242,230,.72)}
   .entry-note b{color:var(--gold-soft);font-weight:600}
 
+  .next-event-block{text-align:center;max-width:640px;margin:0 auto;padding-top:12px;border-top:1px solid var(--line)}
+  .next-event-date{
+    font-family:"Cormorant Garamond","Noto Serif JP",serif;
+    font-size:clamp(2.6rem,8vw,4.2rem);font-weight:600;line-height:1.15;
+    color:var(--green-deep);letter-spacing:.04em;margin-bottom:18px;
+  }
+  .next-event-venue{font-weight:300;font-size:1.05rem;letter-spacing:.08em;color:var(--ink-soft)}
+  .next-event-venue b{font-weight:600;color:var(--green-deep)}
+
   /* ---------- Footer ---------- */
   footer{background:var(--green-darker);color:var(--cream);padding:70px 0 34px}
   .foot-top{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px;padding-bottom:44px;border-bottom:1px solid var(--line)}
@@ -818,6 +827,20 @@
         <b>幹事：アウトオブバウンズの職人</b><br>
         参加費は当日集金（プレー代 10,970円 ＋ 参加費 1,000円 ＝ 合計 11,970円）でした。
       </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NEXT EVENT ================= -->
+<section class="sec sec-ivory" id="next-event">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="kicker">Next Event</span>
+      <h2>次回開催日</h2>
+    </div>
+    <div class="next-event-block rv">
+      <p class="next-event-date">2027年7月24日</p>
+      <p class="next-event-venue">場所：<b>未定</b></p>
     </div>
   </div>
 </section>
